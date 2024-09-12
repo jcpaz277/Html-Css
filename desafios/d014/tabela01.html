@@ -11,6 +11,7 @@
 
         table {
             border-collapse: collapse;
+            width: 500px;
         }
 
         caption {
@@ -22,8 +23,18 @@
         th, td {
             border: 1px solid black;
             padding: 10px;
+            text-align: center;
+        }
+        
+        thead > tr > th {
+            background-color: gray;
+            color: white;
         }
 
+        .cor {
+            background-color: gray;
+            color: white;
+        }
 
 
 
@@ -49,17 +60,52 @@
         </thead>
         <tbody>
             <tr>
-                <th>Exatas</th>
-                <td>Matemática</td>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <th>Matemática</th>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
            </tr>
-
+           <tr>
+                <th>Fisica</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+           </tr>
+           <tr>
+                <th>Química</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+           </tr>
+           <tr> 
+                <th>Biologia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+           </tr>
+           <tr> 
+                <th colspan="4" style="text-align: left;" class="cor" scope="row">Média de Exatas</th>
+                <td>0.0</td>
+           </tr>
+           <tr>
+                 <th rowspan="2" scope="rowgroup">Humanas</th>
+                 <th>História</th>
+                 <td>0.0</td>
+                 <td>0.0</td>
+                 <td>0.0</td>
+           </tr>
+           <tr>
+                 <th>Geografia</th>
+                 <td>0.0</td>
+                 <td>0.0</td>
+                 <td>0.0</td>
+           </tr>
+           <tr>
+                 <th colspan="4" style="text-align: left;" class="cor" scope="row">Média Humanas</th>
+                 <td>0.0</td>
+           </tr> 
         </tbody>
     </table>
-
-    
 </body>
-</html> <th rowspan="1">Nota1</th>
-                <th rowsp
+</html>

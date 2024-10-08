@@ -32,6 +32,10 @@ menu li {
 }
 
 article {
+    width: 100%;
+}
+
+article {
     width: 600px;
     display: block;
     margin: auto;
